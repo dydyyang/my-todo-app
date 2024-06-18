@@ -17,7 +17,7 @@ def add_todo():
 st.title("My Todo App")
 st.subheader("Yeah...hello")
 st.write("This app is to increase your productivity.")
-st.write(f"{time.strftime("%Y年%m月%d日")}")
+st.write(f"{time.strftime('%Y年%m月%d日')}")
 
 
 for i, todo in enumerate(todos):
